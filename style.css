@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #9ac29f;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "M PLUS Rounded 1c", Meiryo, sans-serif;
+}
+
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+  .heading {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+  }
+  .heading::before,
+  .heading::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #999;
+  }
+  .heading::before {
+    bottom: 5px;
+  }
+  
+
+  p {
+    text-align: center
+  }
+  
+  /* --------------------------------
+   * header
+   * -------------------------------- */
+  .header {
+    padding: 120px 30px 60px;
+  }
+
+  .site-title {
+    margin: 50px 0 40px;
+    font-size: 7.6rem;
+  }
+  .site-title-sub {
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+  }
+  .site-title-sub::before,
+  .site-title-sub::after {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: #fff;
+    vertical-align: middle;
+  }
+  
+  
+  /* --------------------------------
+   * about
+   * -------------------------------- */
+  .about {
+    padding: 30px 30px 45px;
+    background-color: #fff;
+    color: #333;
+  }
+  .about-title {
+    margin: 30px 0;
+    line-height: 2.5;
+  }
+  .about-text {
+    margin: 10px 0;
+  }
+  
+  
+  /* --------------------------------
+   * yamagata
+   * -------------------------------- */
+  .yamagata {
+    padding: 30px 30px 45px;
+    background-color: #9ac29f;
+    color: #fff;
+  }
+
+  .yamagata img {
+    margin: 10px;
+  }
+  
+  
+  /* --------------------------------
+   * aruaru
+   * -------------------------------- */
+  .aruaru {
+    padding: 30px 30px 45px;
+    background-color: #fff;
+    color: #333;
+    width: auto;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .wrapper-aruaru {
+    margin: 10px;
+  }
+  
+  /* --------------------------------
+   * oishii
+   * -------------------------------- */
+  .oishii {
+    padding: 30px;
+    background-color: #9ac29f;
+    color: #fff;
+    width: 860px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .oishii-text {
+    font-size: 1.6rem;
+  }
+
+  .rice {
+    padding: 30px;
+    margin: 30px auto;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .ramen {
+    padding: 30px;
+    margin: 30px auto;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .soba {
+    padding: 30px;
+    margin: 30px auto;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .fruit {
+    padding: 30px;
+    margin: 30px auto;
+    background-color: #fff;
+    color: #333;
+    display: flexbox;
+    flex-direction: row;
+    height: 720px;
+  }
+
+  .fruit-box {
+    width: 200px;
+    margin: 15px auto 15px;
+    float: left;
+  }
+
+  .subtitle {
+    margin: 0px;
+    font-size: 2.4rem;
+  }
+
+  .midashi {
+    margin: 2px;
+    font-size: 1.6rem;
+  }
+
+  .subtext {
+    margin-top: 0px;
+    font-size: 1.4rem;
+  }
+
+  p {
+    margin-top: 0px;
+    font-size: 1.4rem;
+  }
+
+
+  
+  /* --------------------------------
+   * oideyo
+   * -------------------------------- */
+  .oideyo {
+    padding: 30px;
+    background-color: #9ac29f;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .oideyo-text {
+    font-size: 1.6rem;
+  }
+  .oideyo-box {
+    width: 200px;
+    margin: 30px auto 15px;
+    float: left;
+    display: inline-flexbox;
+  }
+
+  .wrapper-murayama{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #333;
+    display: table;
+    margin: 30px auto; 
+    width: 800px;
+  }
+
+  .wrapper-shonai{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #333;
+    display: table;
+    margin: 30px auto; 
+    width: 800px;
+  }
+
+  .wrapper-mogami{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #333;
+    display: table;
+    margin: 30px auto; 
+    width: 800px;
+  }
+
+  .wrapper-okitama{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #333;
+    display: table;
+    margin: 30px auto; 
+    width: 800px;
+  }
+
+  
+  /* --------------------------------
+   * footer
+   * -------------------------------- */
+  .footer {
+    padding: 12px 0;
+    font-size: 1.3rem;
+  }
+  
+  
